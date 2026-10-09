@@ -1,0 +1,162 @@
+/* General Reset */
+body {
+    font-family: 'Gill Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: FFF2E0;
+    color: #333;
+
+P {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+}
+/* Navbar */
+.navbar {
+    background-color: #f63535e2;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo {
+    height: 90px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+    /* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: #f0d875;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.highlight {
+    color: #006064;
+    font-weight: bold;
+}
+/* About Section */
+#about, #contact {
+    padding: 5px ;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(95, 191, 247);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+/* Works */
+.works-gallery {
+    background-color: rgb(160, 209, 116);
+    display: flex;
+    gap: 50px;
+    margin-left: 30px;
+    margin-right: 30px
+}
+p{
+    margin-left: 40px;
+    margin-right: 40px ;
+}
+ul{
+    font-family: 'Gill Sans', 'Gill Sans MT'
+}
+.work-item {
+    flex: 1 1 45%;
+}
+.work-item img {
+    width: 105%;
+    border-radius: 10px;
+}
+/* Contact Form */
+.form-container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      width: 600px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #fc76b9;
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+textarea {
+      resize: vertical;
+    }
+.checkbox-group,
+.radio-group {
+    display: inline-block;
+    align-items: center;
+    gap: 6px;
+    font-weight: lighter;
+}
+.radio-group input[type="radio"] {
+    margin: 0;
+}
+button {
+      margin-top: 20px;
+      background-color: #2c9efb;
+      color: white;
+      padding: 12px;
+      width: 100%;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+button:hover {
+      background-color: #dc3333;
+    }
+/* Footer */
+footer {
+    background-color: #e11c1cc0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+h2{
+    background: linear-gradient(90deg, #A2AADB 10%, #8228a8 100%);
+    color: white;
+    padding: 11px;
+    text-align: center;
+    font-family: Rockwell;
+    font-size: 35px;
+    border-radius: 10px;
+}
+form, p, ul, ol{
+    font-family: Gabriola;
+    font-size: 25px;
+}
+label{
+    font-weight: bold;
+}
+.radio-group label,
+.checkbox-group label {
+    font-weight: normal;
+}
+h1{
+    font-size: 50px;
+}
+
+
